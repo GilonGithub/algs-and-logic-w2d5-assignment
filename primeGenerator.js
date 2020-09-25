@@ -9,7 +9,7 @@ const primeGenerator = function(n) {
   }
 
 
-  for(i = 1; i < arr.length; i++){
+  for(i = 0; i < arr.length; i++){
 
     for(j = i; j < arr.length; j++){
       if(j !== i && arr[j] % arr[i] === 0){
